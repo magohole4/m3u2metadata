@@ -2,6 +2,11 @@
 Simple python script to fill metadata from a .m3u file to the files in a folder.
 Currently works with mp3 and wav files
 
+## Usage
+```
+python m3u2metadata.py <path-to-m3u-file> <path-to-root-folder>
+```
+
 ## Why?
 So I legally downloaded some music, but the files (mp3 & wav) weren't ordered and missed all cool metadata, I wanted the files ordered and thankfully the program that I used had created a .m3u file containing some metadata and the right order of the files.
 So I created a simple program to set all the metadata.
