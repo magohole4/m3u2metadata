@@ -1,0 +1,3 @@
+[submodule "riffp"]
+	path = riffp
+	url = https://github.com/magohole4/riffp.git
