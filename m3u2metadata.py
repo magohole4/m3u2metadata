@@ -133,17 +133,6 @@ def set_metadata(ts, gi):
             a.save(v2_version=3)
         elif mm == "audio/x-wav":
             wf=open(t.p, "rb")
-            #wo=open(t.p+"._.wav", "wb")
-            #w=WAVE(wf)
-            #if w.tags == None:
-                #w.add_tags()
-            #w.tags.add(TIT2(encoding=3, text=t.n))
-            #w.tags.add(TRCK(encoding=3, text=str(t.i)))
-            #w.tags.add(TLEN(encoding=3, text=str(t.l)))
-            #w.tags.save(t.p, v2_version=3)
-            ##wo.close()
-            ##del wo
-            #del w
             ck=rp.get_riff(wf)
             ckp=rp.riff_path(ck, [])
             mp=rp.path_to_metadata(ckp, new=True)
