@@ -21,6 +21,7 @@ Please notice that this is my first Python program, contanct me for advice on go
 
 ## Sorry
 TL;DR: Sorry for using Python T\_T.
+
 So when I wanted to create this script I was wondering about how it would be to be in the dark side, installed Python and started programming; I have to admit that Python is usable for scripts and 1 use things (I also have to say that namespacing is horrible), but please STOP USING IT FOR REAL IMPORTANT PROGRAMS (not looking at anyone, Linux Mint Cinnamon).
 
 It also doesn't have that much easyness compared to other languages, because I had to create a library to make what I wanted.
